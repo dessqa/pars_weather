@@ -18,8 +18,6 @@ date = data["current"]["dt"]
 
 hourly = data["daily"]
 
-# Задача 3a.1
-
 l = []  # для разницы
 raznica = []
 dat = []  # для дат
@@ -47,8 +45,6 @@ ind = l.index(sortirovka[7])
 
 print('Минимальная разница между ощущаемой температурой', fl[ind], ' и температурой ночью', tempp[ind], ' в ',
       round(sortirovka[7], 2), 'градуса прогнозируется', f"{dat[ind]:%Y-%m-%d}")
-
-# Задача 3a.2
 
 raznicaa = []
 datt = []
